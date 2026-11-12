@@ -1,0 +1,14 @@
+[package]
+name = "redactdsn"
+version = "0.1.0"
+edition = "2021"
+description = "Mask passwords and tokens in database connection strings (DATABASE_URL, REDIS_URL and friends) before they reach logs."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/redactdsn"
+homepage = "https://peon.sh/solutions/databases"
+documentation = "https://docs.rs/redactdsn"
+keywords = ["database", "redact", "logging", "dsn", "secrets"]
+categories = ["command-line-utilities", "database", "development-tools"]
+
+[dependencies]
